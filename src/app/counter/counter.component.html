@@ -1,0 +1,9 @@
+<div class="counter-container">
+  <h2>Contador:</h2>
+  <div class="counter-value">{{ count$ | async }}</div>
+
+  <div class="counter-actions">
+    <button (click)="increment()">Añadir</button>
+    <button (click)="decrement()">Eliminar</button>
+  </div>
+</div>
